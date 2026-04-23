@@ -1,0 +1,15 @@
+{
+  "name": "welplan-keto-mailer",
+  "version": "1.0.0",
+  "description": "미래기술캠퍼스 저탄고지 식단 추천 메일링 서비스",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dry-run": "node src/index.js --dry-run",
+    "test": "node src/index.js --dry-run"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.0"
+  }
+}
