@@ -2,8 +2,9 @@ name: 🥑 Daily Keto Menu Recommendation
 
 on:
   schedule:
-    # UTC 23:00 일~목 = KST 08:00 월~금
-    - cron: '0 23 * * 0-4'
+    # KST 08:00 월~금
+    - cron: '0 8 * * 1-5'
+      timezone: 'Asia/Seoul'
   workflow_dispatch: # 수동 실행도 가능
 
 jobs:
